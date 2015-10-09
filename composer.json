@@ -9,12 +9,11 @@
             "email": "gchumillas@email.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.5.0",
-        "soloproyectos-php/array": "dev-master",
-        "soloproyectos-php/http": "dev-master",
-        "soloproyectos-php/sys-file": "dev-master"
+        "soloproyectos-php/array": "~1.0",
+        "soloproyectos-php/http": "~1.0",
+        "soloproyectos-php/sys-file": "~1.0"
     },
     "autoload": {
         "psr-4": {
