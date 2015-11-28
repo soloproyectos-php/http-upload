@@ -63,7 +63,7 @@ class HttpUpload
             . "provide a way to ascertain which extension caused the file upload to stop; examining "
             . "the list of loaded extensions with phpinfo() may help";
 
-        if (!Arr::is($_FILES, $name)) {
+        if (!Arr::exist($_FILES, $name)) {
             throw new HttpException("File key not found: $name");
         }
 
