@@ -11,9 +11,9 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "soloproyectos-php/array": "*",
-        "soloproyectos-php/http": "*",
-        "soloproyectos-php/sys-file": "*"
+        "soloproyectos-php/array": "~1.0",
+        "soloproyectos-php/http": "~1.0",
+        "soloproyectos-php/sys-file": "~1.0"
     },
     "autoload": {
         "psr-4": {
